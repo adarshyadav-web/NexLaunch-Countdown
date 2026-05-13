@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NexLaunch | Premium Countdown Timer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+    <div class="app-container">
+        <header>
+            <div class="logo"><i class="fa-solid fa-rocket"></i> NexLaunch</div>
+            <h1>Our new platform is coming soon</h1>
+            <p>Get notified when we launch!</p>
+        </header>
+
+        <div class="countdown">
+            <div class="time-block">
+                <span id="days" class="time">00</span>
+                <span class="label">Days</span>
+            </div>
+            <div class="time-block">
+                <span id="hours" class="time">00</span>
+                <span class="label">Hours</span>
+            </div>
+            <div class="time-block">
+                <span id="minutes" class="time">00</span>
+                <span class="label">Minutes</span>
+            </div>
+            <div class="time-block">
+                <span id="seconds" class="time">00</span>
+                <span class="label">Seconds</span>
+            </div>
+        </div>
+
+        <div class="notify">
+            <input type="email" placeholder="Enter your email address">
+            <button class="btn-primary">NOTIFY ME</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
